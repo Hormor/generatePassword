@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 50px;
+    background-color: #1C1C1C;
+}
+
+.container {
+    background-color: #1F2937;
+    width: 700px;
+    margin: 50px auto;
+    padding: 90px 50px;
+}
+
+.header {
+    font-family: "Karla", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    margin: 5px 0;
+    color: #71716F;
+    font-size: 20px;
+    padding: 5px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.toggle {
+    display: inline;
+    color: #10B981;
+    font-family: "Inter", sans-serif;
+}
+
+#number {
+    margin-left: 10px;
+}
+
+.length {
+    color: #10B981;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+    padding: 9px 15px;
+    background-color: #10B981;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+}
+
+hr {
+    margin-top: 35px;
+    border: 1px solid #2F3E53;
+}
+
+.password input, #length {
+    margin: 35px 10px;
+    width: 250px;
+    background-color: #273549;
+    color: #4ADF86;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    /* display: inline; */
+}
+
+#length {
+    width: 90px;
+}
