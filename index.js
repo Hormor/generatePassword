@@ -86,7 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "/",
   ];
 
-  //   let passwordLength = 15;
   let passwordOne = document.getElementById("password-one");
   let passwordTwo = document.getElementById("password-two");
   const btn = document.getElementById("btn");
@@ -94,12 +93,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const symbolInput = document.getElementById("symbol");
   const numberInput = document.getElementById("number");
 
-  //   if(symbolInput.checked) {
-  //     characters = characters.concat(symbols)
-  //   }
-  //   if (numberInput.checked) {
-  //     characters = characters.concat(numbers);
-  //   }
 
   function getRandomCharacter() {
     let randomChrac = Math.floor(Math.random() * characters.length);
