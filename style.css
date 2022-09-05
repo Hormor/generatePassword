@@ -88,3 +88,9 @@ hr {
 #length {
     width: 90px;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
