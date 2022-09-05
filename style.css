@@ -40,7 +40,8 @@ p {
 }
 
 .toggle {
-    display: inline;
+    margin-top: 20px;
+    /* display: inline; */
     color: #10B981;
     font-family: "Inter", sans-serif;
 }
@@ -51,7 +52,7 @@ p {
 
 .length {
     color: #10B981;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-family: "Inter", sans-serif;
 }
 
@@ -74,7 +75,7 @@ hr {
 }
 
 .password input, #length {
-    margin: 35px 10px;
+    margin: 15px 10px;
     width: 250px;
     background-color: #273549;
     color: #4ADF86;
@@ -90,7 +91,18 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+   body {
+    padding: 0;
+   }
+   
     .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 90px 25px;
+    }
+
+    .password input {
+        margin-left: 0px;
         width: 100%;
     }
 }

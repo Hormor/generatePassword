@@ -16,13 +16,17 @@
       </h1>
       <p>Never use an insecure password again.</p>
       <div class="toggle">
-        <input type="checkbox" id="symbol" />
-        <label for="symbol">Symbol</label>
-        <input type="checkbox" name="number" id="number" />
-        <label for="number">Number</label>
+        <div>
+          <input type="checkbox" id="symbol" />
+          <label for="symbol">Symbol</label>
+          <input type="checkbox" name="number" id="number" />
+          <label for="number">Number</label>
+        </div>
+        <div>
+          <label for="length" class="length">Password length:</label>
+          <input type="number" id="length" />
+        </div>
       </div>
-      <label for="length" class="length">Password length:</label>
-      <input type="number" id="length" />
       <div>
         <button id="btn">Generate passwords</button>
       </div>
